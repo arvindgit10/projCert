@@ -37,7 +37,7 @@
 #      get_url: #wget http://10.0.0.4:8080/jnlpJars/agent.jar
 #       url: http://10.0.0.4:8080/jnlpJars/agent.jar
 #       dest: /home/jenkinsagent
-
+#
 #    - name: Installing Jenkins agent
 #      shell: java -jar /home/jenkinsagent/agent.jar -jnlpUrl http://10.0.0.4:8080/computer/jenkinsagent/jenkins-agent.jnlp -secret c0b119c828349f612cf12789fe9898427128fe7ac1bf0a9f84f58e23c65562d7 -workDir "/home/jenkinsagent" &
 
