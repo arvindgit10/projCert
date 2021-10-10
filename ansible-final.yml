@@ -32,7 +32,7 @@
 #       path: /home/jenkinsagent
 #       mode: '777'
 #       recurse: yes
-
+#
 #    - name: 'Download JenkinsAgent file'
 #      get_url: #wget http://10.0.0.4:8080/jnlpJars/agent.jar
 #       url: http://10.0.0.4:8080/jnlpJars/agent.jar
